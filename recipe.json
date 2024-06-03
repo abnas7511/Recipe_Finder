@@ -1,0 +1,128 @@
+[
+  {
+    "id": "0001",
+    "type": "cutlet",
+    "name": "Chicken Cutlet",
+    "price": 2.99,
+    "ingredients": {
+      "protein": {
+        "name": "Chicken",
+        "preparation": "Breaded and Fried"
+      },
+      "salsa": {
+        "name": "Mint Chutney",
+        "spiciness": "Medium"
+      },
+      "toppings": [
+        {
+          "name": "Onion Rings",
+          "quantity": "1 cup",
+          "ingredients": [
+            "Onion",
+            "Flour",
+            "Spices"
+          ]
+        },
+        {
+          "name": "Coriander",
+          "quantity": "1/2 cup",
+          "ingredients": [
+            "Fresh Coriander"
+          ]
+        },
+        {
+          "name": "Lemon Wedges",
+          "quantity": "4 pieces",
+          "ingredients": [
+            "Lemon"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0002",
+    "type": "cutlet",
+    "name": "Beef Cutlet",
+    "price": 3.49,
+    "ingredients": {
+      "protein": {
+        "name": "Beef",
+        "preparation": "Minced and Fried"
+      },
+      "salsa": {
+        "name": "Tamarind Chutney",
+        "spiciness": "Hot"
+      },
+      "toppings": [
+        {
+          "name": "Sliced Onions",
+          "quantity": "1/4 cup",
+          "ingredients": [
+            "Red Onion",
+            "White Onion"
+          ]
+        },
+        {
+          "name": "Mint",
+          "quantity": "2 tablespoons",
+          "ingredients": [
+            "Fresh Mint Leaves"
+          ]
+        },
+        {
+          "name": "Green Chilies",
+          "quantity": "2 pieces",
+          "ingredients": [
+            "Green Chilies"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0003",
+    "type": "cutlet",
+    "name": "Fish Cutlet",
+    "price": 4.99,
+    "ingredients": {
+      "protein": {
+        "name": "Fish",
+        "preparation": "Mashed and Fried"
+      },
+      "salsa": {
+        "name": "Coconut Chutney",
+        "spiciness": "Mild"
+      },
+      "toppings": [
+        {
+          "name": "Cabbage Slaw",
+          "quantity": "1 cup",
+          "ingredients": [
+            "Shredded Cabbage",
+            "Carrot",
+            "Mayonnaise",
+            "Lime Juice",
+            "Salt"
+          ]
+        },
+        {
+          "name": "Tomato Slices",
+          "quantity": "1/2 cup",
+          "ingredients": [
+            "Tomato"
+          ]
+        },
+        {
+          "name": "Yogurt Dip",
+          "quantity": "2 tablespoons",
+          "ingredients": [
+            "Yogurt",
+            "Lime Juice",
+            "Salt"
+          ]
+        }
+      ]
+    }
+  }
+]

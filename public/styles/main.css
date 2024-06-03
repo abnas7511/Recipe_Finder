@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  /* Add the background image property */
+  background-image: url('./cutlet2.jpg');
+  /* Set background image size and position */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  top: 60px;
+}
+
+h2 {
+  color: black;
+}
+
+h3{
+  margin-top: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+  top: 80px;
+}
+
+button {
+  font-size: 5rem;
+}
+
+.buttons button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 10px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttons button img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#recipeContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  align-items: center;
+  position: relative;
+  top: 80px;
+  border-radius: 20px;
+}
+
+#recipeTitle {
+  color: green;
+}
+
+#ingredientsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#ingredientsList li {
+  margin-bottom: 10px;
+  color: #555;
+}
